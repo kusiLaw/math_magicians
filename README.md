@@ -1,72 +1,77 @@
-# Getting Started with Create React App
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# Math Magicians
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Description the project.
+Math magician is a simple Single Page App (SPA) that allows users to make simple calculations and read random math-related quotes. 
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- JavaScript
+- CSS
+- React
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo (if available)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Live Demo Link](https://livedemo.com)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+``` console
+lawrence@lawrence:~$ git clone "git@github.com:kusiLaw/math_magicians.git"
+lawrence@lawrence:~$ npm start
+starting server:~$ npm run dev.
+build production: ~$ npm run build.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running follow these simple example steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- knowledge of javascript
+- Basic knowledge of React
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Install
+`npm install`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage
+`npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Run tests
+`npm test`
 
 ### Deployment
+`npm run build`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Author1**
+- Lawrence Addai Kusi
+  - Github: [@Githubhandle](https://github.com/kusiLaw)
+  - Twitter: [@Twitterhandle](https://twitter.com/kusilaw)
+  - Linkedin: [Linkedin](https://www.linkedin.com/in/lawrence-kusi-55a662104)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
