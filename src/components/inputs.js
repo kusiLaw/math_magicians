@@ -4,8 +4,9 @@ import React from 'react';
 // eslint-disable-next-line react/prefer-stateless-function
 class TextInput extends React.Component {
   render() {
+    const { color } = this.props;
     return (
-      <input type="text" placeholder="0" className={this.props.color} />
+      <p type="text" className={color}>0</p>
     );
   }
 }
