@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 /* Disable Slint Rules */
 // eslint-disable-next-line react/prefer-stateless-function
@@ -11,4 +12,7 @@ class TextInput extends React.Component {
   }
 }
 
+TextInput.propTypes = {
+  color: PropTypes.string.isRequired,
+};
 export default TextInput;

@@ -1,7 +1,6 @@
 import React from 'react';
 import TextInput from './inputs';
 import Button from './button';
-import PropTypes from 'prop-types'
 
 /* Disable Slint Rules */
 // eslint-disable-next-line react/prefer-stateless-function
@@ -19,6 +18,7 @@ class Calculator extends React.Component {
         ['1', '2', '3', '+'],
         ['0', '.', '='],
       ],
+
     };
   }
 
@@ -26,30 +26,30 @@ class Calculator extends React.Component {
     const {
       darkGray, lightGray, orange, items,
     } = this.state;
-
-    const count = 0;
+    let keys = 0;
     return (
 
       <div className="calculator">
         <TextInput color={darkGray} />
         <ul className="list">
           { items.map((item) => {
-            { console.log(item); }
             if (item.length === 4) {
+              keys += 1;
               return (
-                <li className="row">
-                  <Button key={item[0]} color={lightGray} name={item[0]} />
-                  <Button key={item[1]} color={lightGray} name={item[1]} />
-                  <Button key={item[2]} color={lightGray} name={item[2]} />
-                  <Button key={item[3]} color={orange} name={item[3]} />
+                <li key={keys} className="row">
+                  <Button key={keys + 20} color={lightGray} name={item[0]} />
+                  <Button key={keys + 30} color={lightGray} name={item[1]} />
+                  <Button key={keys + 40} color={lightGray} name={item[2]} />
+                  <Button key={keys + 50} color={orange} name={item[3]} />
                 </li>
               );
             }
+            keys += 1;
             return (
-              <li className="row last">
-                <Button key={item[0]} color={lightGray.concat('2')} name={item[0]} />
-                <Button key={item[1]} color={lightGray} name={item[1]} />
-                <Button key={item[2]} color={orange} name={item[2]} />
+              <li key={keys} className="row last">
+                <Button key={keys + 60} color={lightGray.concat('2')} name={item[0]} />
+                <Button key={keys + 70} color={lightGray} name={item[1]} />
+                <Button key={keys + 80} color={orange} name={item[2]} />
               </li>
             );
           })}
@@ -60,14 +60,4 @@ class Calculator extends React.Component {
   }
 }
 
-// Calculator.prototype ={
-//  items
-// }
-
 export default Calculator;
-
-// this.state = {
-//  darkGray: '#858694',
-//  lightGray: 'e0e0e0',
-//  orange: '#f5913e',
-// };
