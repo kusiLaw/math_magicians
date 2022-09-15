@@ -6,7 +6,6 @@ import PropTypes from 'prop-types';
 class TextInput extends React.Component {
   render() {
     const { color, result } = this.props;
-    // { console.log(result); }
     return (
       <p type="text" className={color}>
         {

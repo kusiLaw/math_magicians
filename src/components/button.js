@@ -7,8 +7,6 @@ class Button extends React.Component {
   itemClick
 
   itemClick = (e) => {
-    // this.props.itemClicked(e);
-    // const { color, name, itemClicked } = this.props;
     Button.itemClick(e);
   }
 

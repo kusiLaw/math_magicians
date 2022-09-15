@@ -11,29 +11,12 @@ class Calculator extends React.Component {
     this.state = {
       next: 0,
     };
-    //   lightGray: 'lightGray',
-    //   orange: 'orange',
-    //   items: [
-    //     ['AC', '+/-', '%', '+'],
-    //     ['7', '8', '9', 'x'],
-    //     ['4', '5', '6', '-'],
-    //     ['1', '2', '3', '+'],
-    //     ['0', '.', '='],
-    //   ],
-    //   result: {
-    //     total: null,
-    //     next: null,
-    //     operation: null,
-    //   },
-    // };
   }
 
   handleButtonClicked = (event) => {
-    // { console.log(event.target.innerText); }
     const newCal = calculate(this.state, event.target.innerText);
-    // { console.log(newCal); }
+
     this.setState(newCal);
-    // { console.log(this.state); }
   }
 
   render() {
