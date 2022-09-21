@@ -19,16 +19,85 @@ body {
   padding: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+header h1 {
+  word-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0 2rem;
+  font-size: 2rem;
+}
+
+header li {
+  padding: 0 2rem;
+  color: black;
+}
+
+header li:not(:last-child) {
+  border-right: 2px solid black;
+}
+
+header a {
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+.quote-container {
+  display: flex;
+  margin-top: 15%;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-container h2 {
+  width: 40%;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.home {
+  padding: 3rem;
+}
+
+.home h1 {
+  padding: 2rem;
+}
+
+.home p {
+  padding: 2rem;
+  font-size: larger;
+}
+
 .calculator {
+  width: 60%;
   display: flex;
   padding: 3rem;
   flex-direction: column;
-  justify-items: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .darkGray {
-  width: 50%;
+  width: 90%;
   background-color: #858694;
   color: white;
   padding: 2rem;
@@ -37,7 +106,7 @@ body {
 }
 
 .list {
-  width: 50%;
+  width: 90%;
   list-style-type: none;
   height: auto;
   font-size: 2rem;
