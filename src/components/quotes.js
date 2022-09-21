@@ -1,5 +1,5 @@
 const Quote = () => (
-  <div className="quote-container">
+  <div className="quote-container d-flex">
     <p>
       Mathmatics is not about numbers, equation, computation, or algorithms
       It is about understanding. -- William paul Thurston

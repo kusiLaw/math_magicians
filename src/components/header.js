@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 
 const Header = () => (
-  <header className="header">
+  <header className="header d-flex">
     <h1>Math Magician</h1>
     <nav>
       <ul className="navbar">

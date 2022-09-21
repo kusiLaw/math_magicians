@@ -17,9 +17,9 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator-container">
+    <div className="calculator-container d-flex">
       <h2>Let do some math</h2>
-      <div className="calculator">
+      <div className="calculator d-flex">
         <TextInput color="darkGray" result={stateValue} />
         <ul className="list">
           <li key={0} className="row">

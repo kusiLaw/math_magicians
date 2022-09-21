@@ -19,8 +19,11 @@ body {
   padding: 0;
 }
 
-.header {
+.d-flex {
   display: flex;
+}
+
+.header {
   justify-content: space-between;
   padding: 3rem;
 }
@@ -55,7 +58,6 @@ header a:hover {
 }
 
 .quote-container {
-  display: flex;
   margin-top: 15%;
   justify-content: center;
   align-items: center;
@@ -64,7 +66,6 @@ header a:hover {
 }
 
 .calculator-container {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -89,7 +90,6 @@ header a:hover {
 
 .calculator {
   width: 60%;
-  display: flex;
   padding: 3rem;
   flex-direction: column;
   justify-content: flex-end;
@@ -115,9 +115,6 @@ header a:hover {
 .row {
   width: 100%;
   height: auto;
-
-  /* display: grid;
- grid-template-columns: auto auto auto auto; */
   display: flex;
   flex: 1 1 25%;
 }
@@ -134,8 +131,6 @@ header a:hover {
   padding: 1rem;
   flex-basis: 25%;
   border: 1px solid gray;
-
-  /* border-right: 1px solid gray;  */
 }
 
 .lightGray2 {
